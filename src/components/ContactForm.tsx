@@ -16,7 +16,7 @@ export default function ContactForm({ onSuccess }: ContactFormProps) {
   const [message, setMessage] = useState('')
   const [qrError, setQrError] = useState(false)
 
-  const wechatQRCode = '/wechat-qrcode.png'
+  const wechatQRCode = './wechat-qrcode.png'
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
